@@ -17,7 +17,7 @@ def say(name):
 def repeat(num,word):
   text = ""
   for x in range(num):
-    text += f"{word} \n"
+    text += f"{word} <br>"
   return text
 
 @app.route('/<word>/')
